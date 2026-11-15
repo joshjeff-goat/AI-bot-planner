@@ -16,7 +16,7 @@ GEMINI_KEY = os.environ.get("GEMINI_API_KEY")
 BIN_URL = os.environ.get("BIN_URL")
 
 genai.configure(api_key=GEMINI_KEY)
-model = genai.GenerativeModel('models/-gemini-1.5-flash')
+model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 def get_data_from_bin():
     try:
