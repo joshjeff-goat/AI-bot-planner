@@ -1,0 +1,3 @@
+Google-Generative-AI
+Requests
+Python-Telegram-Bot
